@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="240dp"
+    android:background="@android:color/transparent">
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:alpha="0.9"
+        android:editable="true"
+        android:id="@+id/tvReply"
+        android:layout_above="@+id/listenAgainID"
+        android:layout_centerHorizontal="true"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Listen Again"
+        android:id="@+id/listenAgainID"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/replyButtonID"
+        android:layout_toStartOf="@+id/replyButtonID"
+        android:background="#ffffff"
+        android:alpha="0.5"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Reply"
+        android:id="@+id/replyButtonID"
+        android:layout_below="@+id/tvReply"
+        android:layout_alignRight="@+id/tvReply"
+        android:layout_alignEnd="@+id/tvReply"
+        android:background="#ffffff"
+        android:alpha="0.5"/>
+
+
+</RelativeLayout>

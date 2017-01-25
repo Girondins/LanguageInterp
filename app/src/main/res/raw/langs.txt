@@ -1,0 +1,10 @@
+english/english/en/en
+svenska/svenska/sv/sv
+deutsch/deutsch/de/de
+français/fra/fr/fr
+italiano/italiano/it/it
+español/esp/es/es
+português/port/pt/pt
+polski/polski/pl/pl
+中文/chinese/zh_CN/zh-CHS
+русский/russian/ru/ru

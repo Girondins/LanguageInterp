@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LanguageInterp</string>
+    <string name="selectLanguage">Select a language:</string>
+    <string name="confirm">Confirm</string>
+    <string name="dismiss">Dismiss</string>
+    <string name="speak">Speak</string>
+    <string name="settings">Settings</string>
+</resources>

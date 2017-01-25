@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="240dp"
+    android:background="@android:color/transparent"
+
+
+    >
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="180dp"
+        android:alpha="0.9"
+        android:editable="true"
+        android:id="@+id/TextView"
+        android:layout_above="@+id/comfirmButton"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Comfirm"
+        android:id="@+id/comfirmButton"
+        android:layout_alignLeft="@+id/TextView"
+        android:layout_alignStart="@+id/TextView"
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:alpha="0.5" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/SpeakAgainButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/TextView"
+        android:layout_alignEnd="@+id/TextView"
+        android:src="@drawable/mikrofon"
+        android:layout_below="@+id/TextView"
+        android:text="Speak Again"
+        android:background="#ffffff"
+        android:alpha="0.5"/>
+
+</RelativeLayout>
